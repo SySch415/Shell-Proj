@@ -1,0 +1,27 @@
+# ignore binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+# ignore macOS .DS_Store files
+.DS_Store
+
+# Test binary, built with 'cargo test'
+/target/
+
+# Rust/Cargo
+**/target/**
+**/Cargo.lock
+**/target/*
+**/*.log
+**/*.rs.bk
+
+# Byebug command history file.
+.byebug_history
+
+# Additional artifacts
+.idea/
+*.swp
