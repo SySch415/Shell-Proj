@@ -6,7 +6,7 @@ use std::path::Path;
 use std::process::Command;
 
 fn main() {
-
+ 
     loop {
         print!("% ");
         io::stdout().flush().unwrap();
@@ -121,6 +121,6 @@ fn main() {
                 println!("{}: command not found", command);
             }
         }
-    }     
+    }
 }
 

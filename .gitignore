@@ -5,7 +5,6 @@
 *.so
 *.dylib
 
-
 # ignore macOS .DS_Store files
 .DS_Store
 
@@ -14,7 +13,9 @@
 
 # Rust/Cargo
 **/target/**
-**/Cargo.lock
+
+# for libraries, ignore Cargo.lock (uncomment)
+# **/Cargo.lock
 **/target/*
 **/*.log
 **/*.rs.bk
