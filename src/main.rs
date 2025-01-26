@@ -8,7 +8,7 @@ use std::process::Command;
 fn main() {
  
     loop {
-        print!("% ");
+        print!(">>> ");
         io::stdout().flush().unwrap();
     
         // Wait for user input
